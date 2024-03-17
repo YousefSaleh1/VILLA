@@ -1,0 +1,46 @@
+.dots {
+    position: absolute;
+    bottom: 60px;
+    right: 51%;
+}
+
+.dots button.dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .5s;
+}
+
+.dots .dot.active {
+    background-color: #f35525;
+}
+
+.left-control,
+.right-control,
+button.dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+.right-control span,
+.left-control span {
+    border-radius: 50%;
+    background-color: #9E9E9E;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-control span .left,
+.left-control span .right {
+    color: white;
+    width: 20px;
+    height: 34px;
+}

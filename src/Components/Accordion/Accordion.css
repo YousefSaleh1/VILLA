@@ -1,0 +1,26 @@
+.accordion {
+    margin-left: 10px;
+    margin-right: 10px;
+    --bs-accordion-border-radius: 10px;
+    --bs-accordion-inner-border-radius: 10px;
+    --bs-accordion-bg: #fafafa;
+    --bs-accordion-border-color: none;
+    border: none !important;
+}
+
+.accordion-header {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.accordion-button {
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #f35525;
+    background-color: #fafafa;
+    outline: none;
+}
